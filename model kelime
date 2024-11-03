@@ -1,0 +1,15 @@
+kelimeler = {
+"LOL":  "komik bir şeye verilen cevap",
+"CRINGE": "garip ya da utandırıcı bir şey",
+"ROFL": "bir şakaya karşılık cevap",
+"SHEESH": "onaylamamak",
+"CREEPY":  "korkunç",
+"AGGRO": "agresifleşmek/sinirlenmek"
+    
+}
+for i in range(5):
+    soru = input("Bilmediğiniz 1 kelimeyi sorun (büyük harflerle yazın)")
+    if soru in kelimeler.keys():
+        print("bravo kelimeler eşleşiyor")
+    else:
+        print("kelimeleri dogru girin")
