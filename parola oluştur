@@ -1,0 +1,7 @@
+import random
+karakter=("assdfgıowry8644ı09*05uıegjrgjelk!'?^??=))UYTREWQQ!'^^+%&78899*")
+parola_uzunlugu=int(input("parola uzunluğunu giriniz: "))
+x=""
+for i in range(parola_uzunlugu):
+    x= x + random.choice(karakter)
+print("oluşturduğunuz parola:",x)
